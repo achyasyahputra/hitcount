@@ -1,10 +1,10 @@
 version: "3.9"
 services:
-  web:
+  hitcount:
     build: .
     image: "hitcount:latest"
     ports:
-      - "8000:5000"
+      - "7723:5000"
     volumes:
       - .:/code
     environment:
