@@ -1,5 +1,5 @@
 from flask import Flask
-from hitcount.utils.hitcount import get_hit_count
+from hit.utils.hitcount import get_hit_count
 
 app = Flask(__name__)
 
